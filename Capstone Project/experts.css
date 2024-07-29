@@ -112,10 +112,11 @@ position: relative;
   }
   .main {
     color: white;
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 80px;
-    right: auto;
+    left: auto;
+    padding-left: 60px;
     width: 761px;
     height: 280px;
   }
@@ -130,36 +131,21 @@ margin-bottom: 15px;
 font-weight: 600;
 font-size: 1.56rem;
   }
- input {
-    margin-top:20px;
-    width: 447px;
-background-color: none;
-color: black;
-height: 52px;
-font-size: 1rem;
-background: transparent;
-border: 1px solid white;
-padding: 9px 18px 9px 52px;
-outline: none;
-border-radius: 8px;
-margin-bottom: 10px;
-}
- input::placeholder {
+  input::placeholder {
     color: gray;
     font-size: 1rem;
     font-weight: 400;
     padding-left: 60px
 }
 
-@import url("https://fonts.googleapis.com/css2?family-Poppins");
 .search {
   position: relative;
 }
 
-.fa-search {
+.search img{
     position: absolute;
-    left: 157px;
-    top: calc(49% - 11px);
+    left:7px;
+    top: calc(45% - 11px);
     text-align: center;
     font-size: 28px;
     width: 48px;
@@ -176,6 +162,28 @@ margin-bottom: 10px;
 .search input {
   padding: 5px 22px 5px 2px;
   
+}
+.search img {
+  width: 40px;
+  height: 40px;
+}
+.search a > img:hover {
+  cursor: pointer;
+}
+input {
+  margin-top:20px;
+  width: 447px;
+background-color: none;
+color: white;
+height: 52px;
+
+font-size: 1rem;
+background: transparent;
+border: 1px solid white;
+padding: 9px 18px 9px 52px;
+outline: none;
+border-radius: 8px;
+margin-bottom: 10px;
 }
 .meet {
   width: 100%;
@@ -209,7 +217,7 @@ margin-bottom: 10px;
 
 .article-word {
   padding: 20px;
-  text-align: center;
+  text-align: left;
   line-height: 32px;
 }
 .article-word h3 {

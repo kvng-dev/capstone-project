@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.page-header {
+  background-color: rgba(79, 120, 28, 1);
+  height: auto;
+  width: 100%;
+  padding: 1rem 6.9rem;
+  color: white;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.nav-links,
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 4.4rem;
+}
+
+.nav-list .active,
+.user-active {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-list li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #f6f6f6;
+}
+
+.user {
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+
+.hero-section {
+  background-image: url("assets/unsplash_4-EeTnaC1S4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 81.1vh;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  position: relative;
+  /* width: 70%;
+    padding: 5.5% 12%; */
+  width: 53%;
+  padding: 6.5% 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 2.4rem;
+  z-index: 1;
+}
+
+.hero-content h3 {
+  color: #ffcf91;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 36px;
+  width: 69%;
+}
+
+.hero-content p {
+  font-size: 1.46rem;
+  font-weight: 400;
+  line-height: 22px;
+  width: 85%;
+}

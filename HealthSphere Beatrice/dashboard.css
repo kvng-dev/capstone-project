@@ -311,18 +311,3 @@ footer {
   width: 18px;
   height: 18px;
 }
-
-.next-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.8rem;
-  color: white;
-  margin: 0 auto;
-  background-color: #101806;
-}
-
-.next-page a {
-  padding: 10px;
-  color: red;
-}

@@ -219,9 +219,11 @@ body {
     box-sizing: border-box;
   }
 
-  html {
+  body {
     font-size: 60%;
     background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Raleway", sans-serif;
     overflow-x: hidden;
   }
@@ -234,7 +236,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
-    border-radius: 6.4rem 0rem 0rem 6.4rem;
+    border-radius: 2rem 0rem 0rem 2rem;
   }
 
   .image {
@@ -253,18 +255,25 @@ body {
   }
 
   .form {
-    width: 45vw;
-    height: 73vh;
+    width: 35vw;
+    min-height: 80vh;
     display: flex;
     background-color: rgba(205, 205, 205, 0.687);
+  }
+
+  .form h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0.08rem;
   }
 
   .form-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 45vh;
-    width: 50vw;
+    height: 90vh;
+    width: 35vw;
   }
 
   .buttons-div {
@@ -276,19 +285,18 @@ body {
 
   .buttn {
     background-color: transparent;
-    padding: 1rem 1.5rem;
+    padding: 0.7rem 1.5rem;
     border: 1.5px solid;
     border-radius: 8px;
     font-size: 1.4rem;
     font-weight: 400;
     text-align: center;
-    width: 12rem;
+    width: 10rem;
   }
 
   .buttn img {
-    font-size: 1.5rem;
-    padding-right: 3px;
-    transform: translateY(3px);
+    width: 10px;
+    height: 10px;
   }
 
   .line-or {
@@ -300,7 +308,7 @@ body {
   }
 
   .line-or .line {
-    width: 11rem;
+    width: 8rem;
     border-bottom: 1.5px solid;
     transform: translateY(-12px);
   }
@@ -329,7 +337,7 @@ body {
   }
 
   .input-form input::placeholder {
-    font-weight: lighter;
+    font-weight: 19;
     color: rgb(169, 169, 168);
     font-size: 1.2rem;
   }
@@ -340,7 +348,7 @@ body {
     border: none;
     border-radius: 4px 0px 0px 4px;
     position: absolute;
-    left: 8rem;
+    left: 24%;
     top: 1px;
   }
 
@@ -350,40 +358,216 @@ body {
     border: none;
     border-radius: 4px 0px 0px 4px;
     position: absolute;
-    left: 8rem;
+    left: 24%;
     bottom: 1px;
   }
 
   .eye {
-    padding: 7.5px 14px;
-    background-color: transparent;
-    border: none;
-    border-radius: 4px 0px 0px 4px;
+    width: 15px;
+    height: 14px;
+
     position: absolute;
-    right: 8rem;
-    bottom: 1px;
+    bottom: 13%;
+    right: 26%;
   }
 
-  .forgot {
-    margin-right: 19rem;
-    margin-bottom: 2rem;
-    font-weight: 300;
-    font-size: 1rem;
-  }
-
-  .log-in {
-    width: 11vw;
+  .sign-in {
+    width: 37%;
     background-color: rgba(79, 120, 28, 1);
     color: #fff;
     padding: 1rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1.4rem;
   }
 
   .last-info {
     font-size: 1.3rem;
+    font-weight: lighter;
+  }
+
+  .last-info a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+  }
+
+  .container {
+    min-height: 60vh;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 2rem;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .form {
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    background-color: rgba(205, 205, 205, 0.687);
+    border-radius: 2rem;
+  }
+
+  .form h2 {
+    margin-top: 0;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: 0.08rem;
+  }
+
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+    width: 70vw;
+    margin: auto;
+  }
+
+  .welcome {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 800;
+    line-height: 28px;
+  }
+
+  .buttons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1.7rem;
+  }
+
+  .buttn {
+    background-color: transparent;
+    padding: 1rem 1.5rem;
+    border: 1.5px solid;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    width: 13.5rem;
+  }
+
+  .buttn img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .line-or {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .line-or .line {
+    width: 11rem;
+    border-bottom: 1.5px solid;
+    transform: translateY(-12px);
+  }
+
+  .or-bold {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    width: 42rem;
+    position: relative;
+    margin-top: 1rem;
+  }
+
+  .input-form input {
+    width: 67%;
+    padding: 1rem 1.5rem;
+    border: 0.5px solid;
+    border-radius: 4px;
+  }
+
+  .input-form input::placeholder {
+    font-weight: lighter;
+    color: rgb(169, 169, 168);
+    padding-left: 15%;
+    font-size: 1.3rem;
+  }
+
+  .message-box {
+    padding: 7.8px 10px;
+    background-color: #e7e5e5;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    left: 17%;
+    top: 1px;
+  }
+
+  .lock {
+    padding: 7.3px 10.7px;
+    background-color: #e7e5e5;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    left: 17%;
+    bottom: 1px;
+  }
+
+  .eye {
+    width: 15px;
+    height: 14px;
+
+    position: absolute;
+    bottom: 13%;
+    right: 20%;
+  }
+
+  .sign-in {
+    width: 30%;
+    background-color: rgba(79, 120, 28, 1);
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .last-info {
+    font-size: 1.4rem;
     font-weight: lighter;
   }
 

@@ -20,7 +20,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 70rem;
-    height: 60vh;
+    height: 60rem;
     text-align: center;
     margin: 20rem auto;
     background-color: white;
@@ -87,7 +87,7 @@ html {
         justify-content: center;
         align-items: center;
         width: 60rem;
-        height: 60vh;
+        height: 60rem;
         text-align: center;
         margin: 20rem auto;
         background-color: white;
@@ -147,7 +147,7 @@ html {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 120vh;
+        height: 120rem;
     }
     
     .container {
@@ -155,8 +155,8 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 55rem;
-        height: 50vh;
+        width: 50rem;
+        height: 50rem;
         text-align: center;
         margin: 29rem auto;
         background-color: white;

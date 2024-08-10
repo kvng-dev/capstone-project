@@ -69,7 +69,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 88.1vh;
+  height: 92vh;
   color: white;
   display: flex;
   justify-content: flex-start;
@@ -293,13 +293,13 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  font-size: 1.47rem;
+  font-size: 1.3rem;
 }
 
 .contact .explore-,
 .explore .explore-,
 .connect .explore- {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 600;
   padding-bottom: 1rem;
 }

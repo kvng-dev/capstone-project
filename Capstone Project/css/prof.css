@@ -31,6 +31,10 @@ a {
   z-index: 100;
 }
 
+.logo h1 {
+  display: none;
+}
+
 .nav-links,
 .user {
   display: flex;
@@ -62,6 +66,11 @@ a {
 .user {
   gap: 1rem;
   font-size: 1.6rem;
+}
+
+.nav__toggle {
+  font-size: 3rem;
+  display: none;
 }
 
 .prof-container {
@@ -184,6 +193,20 @@ a {
     z-index: 100;
   }
 
+  .logo {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .logo h1 {
+    display: flex;
+    align-self: center;
+  }
+
+  .logo h1 span {
+    color: #ffcf91;
+  }
+
   .nav-links,
   .user {
     display: flex;
@@ -215,6 +238,12 @@ a {
   .user {
     gap: 1rem;
     font-size: 1.6rem;
+    display: none;
+  }
+
+  .nav__toggle {
+    font-size: 3rem;
+    display: flex;
   }
 
   .prof-container {
@@ -353,6 +382,12 @@ a {
   .user {
     gap: 1rem;
     font-size: 1.6rem;
+    display: none;
+  }
+
+  .nav__toggle {
+    font-size: 3rem;
+    display: flex;
   }
 
   .prof-container {

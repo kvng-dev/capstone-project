@@ -452,14 +452,6 @@ body {
     margin: auto;
   }
 
-  .welcome {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-    font-weight: 800;
-    line-height: 28px;
-  }
-
   .buttons-div {
     display: flex;
     flex-direction: row;

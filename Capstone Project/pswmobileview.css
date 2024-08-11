@@ -13,8 +13,7 @@
     align-items: center;
 }
 .container {
-  
-    width: 700px;
+    width: 500px;
     background-color: #fff;
     padding: 30px;
     border-radius: 16px;
@@ -57,7 +56,7 @@ display: block;
 font-weight: 500;
 }
 .input-group input {
-    width: 447px;
+width: 400px;
 background-color: none;
 color: black;
 height: 52px;
@@ -76,9 +75,10 @@ margin-bottom: 10px;
 }
 .input-group .icon {
     position: absolute;
-    left: 97px;
+    left: 0px;
     top: calc(20% - 11px);
     text-align: center;
+    margin-left: 14px;
     font-size: 28px;
     width: 48px;
     height: 50px;

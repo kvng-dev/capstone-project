@@ -8,7 +8,7 @@
 
 html {
     font-size: 62.5%;
-    background-image: url(/CAPSTONE/pexels-lucaspezeta-2855892.jpg);
+    background-image: url(/pexels-lucaspezeta-2855892.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 70rem;
-    height: 60vh;
+    height: 60rem;
     text-align: center;
     margin: 20rem auto;
     background-color: white;
@@ -75,7 +75,7 @@ html {
     
     html {
         font-size: 60%;
-        background-image: url(/CAPSTONE/pexels-lucaspezeta-2855892.jpg);
+        background-image: url(/pexels-lucaspezeta-2855892.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -87,7 +87,7 @@ html {
         justify-content: center;
         align-items: center;
         width: 60rem;
-        height: 60vh;
+        height: 60rem;
         text-align: center;
         margin: 20rem auto;
         background-color: white;
@@ -143,11 +143,11 @@ html {
     
     html {
         font-size: 50%;
-        background-image: url(/CAPSTONE/pexels-lucaspezeta-2855892.jpg);
+        background-image: url(/pexels-lucaspezeta-2855892.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 120vh;
+        height: 120rem;
     }
     
     .container {
@@ -155,8 +155,8 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 55rem;
-        height: 50vh;
+        width: 50rem;
+        height: 50rem;
         text-align: center;
         margin: 29rem auto;
         background-color: white;
@@ -169,7 +169,7 @@ html {
     .section1 {
         width: 40rem;
         height: 10rem;
-        gap: 32px;
+        gap: 31px;
         opacity: 0px;
     
     }

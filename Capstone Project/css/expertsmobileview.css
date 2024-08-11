@@ -1,3 +1,4 @@
+@media screen and (max-width: 600px) {
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +13,6 @@ ul {
     text-decoration: none;
     color: black;
   }
-  
   .page-header {
     background-color: rgba(79, 120, 28, 1);
     height: 104px;
@@ -65,7 +65,7 @@ ul {
   }
 .relative1 {
     width: 100%;
-    height:595px;
+    height:495px;
     background: url(/Portrait\ of\ diverse\ women\ together.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ position: relative;
     width: 100%;
     top: 0px;
     right: 0px;
-    height: 595px;
+    height: 495px;
   }
   .main {
     color: white;
@@ -88,15 +88,15 @@ position: relative;
     position: absolute;
     top: 80px;
     left: auto;
-    padding-left: 60px;
-    width: 761px;
+    padding-left: 40px;
+    width: 401px;
     height: 280px;
   }
   .main-head {
 font-weight: 800;
-font-size: 3rem;
+font-size: 1.51rem;
 color: #ffcf91;
-line-height: 48px;
+line-height: 38px;
 margin-bottom: 15px;
   }
   .main-para {
@@ -134,7 +134,6 @@ font-size: 1.56rem;
 .search input {
   padding: 5px 22px 5px 60px;
   font-size: 1.25rem;
-  
 }
 .search img {
   width: 40px;
@@ -145,11 +144,10 @@ font-size: 1.56rem;
 }
 input {
   margin-top:20px;
-  width: 447px;
+  width: 347px;
 background-color: none;
 color: white;
 height: 52px;
-
 font-size: 1rem;
 background: transparent;
 border: 1px solid white;
@@ -160,21 +158,19 @@ margin-bottom: 10px;
 }
 .meet {
   width: 100%;
-  padding-left: 60px;
+  padding-left: 40px;
   height: 80px;
   padding-top: 30px;
   color: #4f781c;
   font-weight: 700;
-  font-size: 2.7rem;
+  font-size: 2rem;
 }
 
 .recent-article {
   padding-top: 50px;
-  padding-left: 53px;
-  display: grid;
-  grid-template-columns: 630px 630px;
-  grid-template-rows: 210px 210px;
-  gap: 2em 1em;
+  padding-left: 25px;
+  display: flex;
+flex-wrap: wrap;
 }
 
 .article {
@@ -202,13 +198,17 @@ font-size: 1.25rem;
 font-weight: 400;
 padding-top: 10px;
 }
-
 footer {
   margin-top: 100px;
+  width: 100%;
+  height: auto;
   color: white;
   background: #101806;
   display: flex;
-  padding: 100px 70px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
   justify-content: space-between;
 }
 
@@ -220,16 +220,24 @@ footer {
   color: #ffcf91;
 }
 .logo-name img {
-  width: 64px;
-  height: 64px;
+  width: 68px;
+  height: 74px;
 }
 .explore {
-line-height: 32px;
+line-height: 22px;
 color: #f6f6f6;
+display: flex;
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100rem;
+margin-top: 4rem;
 }
 .explore h3 {
   font-weight: 700;
   font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 .explore a {
   text-decoration: none;
@@ -240,6 +248,12 @@ color: #f6f6f6;
 .contact {
   line-height: 32px;
   color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100rem;
+  margin-top: 4rem;
   }
   .contact h3 {
     font-weight: 700;
@@ -258,6 +272,13 @@ color: #f6f6f6;
 }
 .connect {
   width: 30%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100rem;
+  margin-top: 4rem;
 }
 .socials img {
   margin: 10px;
@@ -274,7 +295,7 @@ color: #f6f6f6;
 .search2 button {
     position: absolute;
     right: 0px;
-    margin-right: 60px;
+    margin-right: 0px;
     top: calc(39% - 11px);
     text-align: center;
     font-size: 28px;
@@ -292,7 +313,7 @@ color: #f6f6f6;
 
 .search2 input {
   padding: 5px 22px 5px 2px;
-  width: 300px;
+  width: 250px;
   height: 50px;
   border-radius: 10px;
   border: 2px solid #ababab;
@@ -305,4 +326,5 @@ text-align: left;
 }
 footer a:hover {
   opacity: 0.8;
+}
 }

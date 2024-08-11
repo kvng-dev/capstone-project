@@ -7,7 +7,7 @@
 
 html {
     font-size: 62.5%;
-    background-image: url(/CAPSTONE/pexels-tomfisk-2121637.jpg);
+    background-image: url(/pexels-tomfisk-2121637.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@ span {
     
     html {
         font-size: 60%;
-        background-image: url(/CAPSTONE/pexels-tomfisk-2121637.jpg);
+        background-image: url(/pexels-tomfisk-2121637.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -206,7 +206,6 @@ span {
         justify-content: center;
         align-items: center;
         width: 60rem;
-        height: 70rem;
         text-align: center;
         margin: 16rem auto;
         background-color: transparent;
@@ -391,20 +390,18 @@ span {
     
     html {
         font-size: 50%;
-        background-image: url(/CAPSTONE/pexels-tomfisk-2121637.jpg);
+        background-image: url(/pexels-tomfisk-2121637.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 120vh;
         overflow-x: hidden;
         overflow-y: hidden;
     }
     
     .container {
         width: 54rem;
-        height: 75rem;
         text-align: center;
-        margin: 25rem auto;
+        margin: 20rem auto;
         background-color: transparent;
     }
     

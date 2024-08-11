@@ -329,11 +329,11 @@
       
       .nav-links {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
       }
       
       .logo {
-        width: 30rem;
+        width: 30vw;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -381,7 +381,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 30rem;
+        width: 60vw;
         margin-right: 1rem;
       }
     

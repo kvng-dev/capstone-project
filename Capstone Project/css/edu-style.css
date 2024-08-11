@@ -40,7 +40,8 @@ li a {
 }
 
 .hero-section {
-  background: url("../Healthsphere/unsplash_Ok76F6yW2iA.png") no-repeat;
+  background: url("../images/Kingsley assets/unsplash_Ok76F6yW2iA.png")
+    no-repeat;
   /* width: 100%; */
   background-size: cover;
   height: 565px;

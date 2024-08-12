@@ -272,6 +272,11 @@ a {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-wrap {
   color: white;
   background: #101806;
   display: flex;

@@ -224,6 +224,14 @@ a {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: #101806;
+  padding: 0;
+}
+
+.footer-wrap {
   color: white;
   background: #101806;
   display: flex;
@@ -319,6 +327,13 @@ footer {
 .sub-btn button img {
   width: 18px;
   height: 18px;
+}
+
+.footer-line {
+  color: #f6f6f6;
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin-bottom: 6rem;
 }
 
 /*///////////////////////////////////////////////////*/

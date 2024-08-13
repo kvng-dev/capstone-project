@@ -8,10 +8,9 @@ body {
 nav {
   background: #4f781c;
   height: 100px;
-  /* width: 100%; */
-  padding: 0 200px;
+  width: 100%;
+  /* padding: 0 200px; */
   display: flex;
-  padding: 0 300px;
   justify-content: space-between;
   align-items: center;
 }
@@ -24,8 +23,8 @@ ul {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  width: 50%;
-  margin-left: 110px;
+  /* width: 50%; */
+  /* margin-left: 110px; */
 }
 
 li {
@@ -53,7 +52,7 @@ button {
 }
 
 nav .btn {
-  transform: translateX(100px);
+  /* transform: translateX(100px); */
   display: flex;
 }
 
@@ -73,11 +72,11 @@ button:hover {
 
 .hero-section {
   width: 100%;
-  height: 1280px;
+  height: 971px;
   background-image: url("../images/Kingsley assets/portrait-happy-young-woman_23-2149309261.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 30% 30%;
+  background-size: cover;
+  background-position: 100%;
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
 }
@@ -128,6 +127,7 @@ button:hover {
   color: white;
   background: green;
 }
+
 .key-feature {
   width: 100%;
   text-align: center;
@@ -148,12 +148,13 @@ button:hover {
 }
 
 .container {
-  width: 70%;
+  width: 90%;
   margin: 10px auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 700px;
-  row-gap: 1.5em;
+  row-gap: 1em;
+  column-gap: 1em;
   /* overflow: hidden; */
   justify-content: space-evenly;
   /* border: 1px solid green; */
@@ -162,7 +163,7 @@ button:hover {
 .key-container {
   width: 455px;
   height: 384px;
-  padding: 10px 40px;
+  padding: 10px 30px;
   background: #fff5e9;
   margin: 10px 0;
   box-shadow: 5px 8px rgb(223, 221, 221);
@@ -174,7 +175,7 @@ button:hover {
 }
 
 .key-container p {
-  font-size: px;
+  font-size: 16px;
 }
 
 .landing-page {
@@ -283,7 +284,7 @@ button:hover {
 }
 
 .control .ctrl-img {
-  width: 70%;
+  width: 1400px;
   margin-right: 50px;
   height: 395px;
   border-radius: 10px;
@@ -361,7 +362,7 @@ footer {
 
 @media (min-width: 650px) and (max-width: 1080px) {
   nav img {
-    transform: translatex(-200px);
+    transform: translatex(-120px);
     width: 50px;
   }
 
@@ -378,7 +379,7 @@ footer {
     width: 284px;
     height: 48px;
     font-size: 12px;
-    margin-left: -80px;
+    /* margin-left: -0px; */
   }
 
   nav button {
@@ -389,6 +390,7 @@ footer {
     background-position: 0 0;
     /* overflow: hidden; */
     height: 745px;
+    /* border-bottom-left-radius: calc(50% - 16px); */
     background-image: 100%;
   }
 
@@ -420,13 +422,15 @@ footer {
 
   .hero-section > .overlay {
     padding: 0;
-    height: 455px;
+    height: 525px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     overflow: hidden;
   }
 
   .key-feature {
+    padding: 0 50px;
+    margin-top: -200px;
     height: 950px;
     width: 650px;
   }
@@ -483,6 +487,17 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
+  .landing-page {
+    height: 680px;
+  }
+
+  .landing-page h1 {
+    font-size: 24px;
+  }
+
+  .landing-page p {
+    font-size: 16px;
+  }
   .land-div {
     width: 100%;
   }
@@ -496,11 +511,24 @@ footer {
   }
 
   .faq {
-    height: 1200px;
+    height: 1000px;
+    /* width: 90%; */
+  }
+
+  .faq h1 {
+    font-size: 24px;
+  }
+
+  .faq p {
+    font-size: 18px;
+  }
+
+  .tab img {
+    width: 530px;
   }
 
   .control {
-    width: 640px;
+    width: 95%;
     padding: 20px;
   }
   .control .ctrl-img {
@@ -545,5 +573,100 @@ footer {
 
   .sub-btn input::placeholder {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  nav {
+    width: 100%;
+    height: 70px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  nav img {
+    width: 40px;
+    transform: translateX(-280px);
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+    margin-left: 260px;
+  }
+
+  .hero-section {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+
+  .hero-section > .overlay {
+    height: 600px;
+    width: 100%;
+    padding-top: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    /* margin-left: -120px; */
+    border-bottom-left-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+  }
+
+  .overlay .overlayee {
+    text-align: center;
+    margin: 0;
+  }
+
+  .overlayee h1 {
+    font-size: 25px;
+    margin-left: -100px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .hero-section p {
+    font-size: 12px;
+    text-align: center;
+    /* width: 130px; */
+    margin-left: -100px;
+  }
+  .overlayee button {
+    margin-left: -60px;
+    font-size: 14px;
+  }
+
+  .reg {
+    width: 190px;
+    font-size: 14px;
+    margin-right: 80px;
+  }
+
+  .lea {
+    width: 100px;
+  }
+
+  .key-feature {
+    height: 2100px;
+  }
+
+  .container {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .key-container {
+    width: 300px;
   }
 }

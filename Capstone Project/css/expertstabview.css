@@ -16,16 +16,9 @@ ul {
   
   .page-header {
     background-color: rgba(79, 120, 28, 1);
-    height: 104px;
+    height: 5rem;
     width: 100%;
-    padding: 1rem 0rem;
-    color: white;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 2;
   }
-  
   .nav-links,
   .user {
     display: flex;
@@ -34,10 +27,10 @@ ul {
   }
   
   .nav-list {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 4rem;
+    display: none;
   }
   
   .nav-list .active,
@@ -60,9 +53,17 @@ ul {
     margin-right: 30px;
     gap: 1rem;
     font-size: 1.2rem;
+    display: none;
   }
   .user img {
     border-radius: 80px;
+  }
+  .user1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30vw;
+    margin-right: 1rem;
   }
 .relative1 {
     width: 100%;

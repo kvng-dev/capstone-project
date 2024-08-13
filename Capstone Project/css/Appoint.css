@@ -9,6 +9,7 @@
   html {
     font-size: 62.5%;
     background-color: rgba(246, 246, 246, 1);
+    overflow-x: hidden;
   }
   
   .page-header {

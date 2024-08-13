@@ -9,6 +9,10 @@
   html {
     font-size: 62.5%;
   }
+
+  ul {
+    list-style-position: inside;
+  }
   
   .page-header {
     background-color: rgba(79, 120, 28, 1);
@@ -102,16 +106,19 @@
 
   .assess button {
     background-color: rgba(79, 120, 28, 1);
-    color: rgba(255, 207, 145, 1);
-    padding: 1rem 1.5rem;
+    padding: 1.5rem 2.5rem;
     border: none;
     border-radius: 0.3rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+  }
+
+  .assess button a {
+    color: rgba(255, 207, 145, 1);
+    text-decoration: none;
   }
 
   .search {
     width: 100%;
-    height: 150rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -256,25 +263,23 @@
   }
 
   .popular {
-    margin-top: 1rem;
     width: 85%;
-    height: 40rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 10rem;
   }
 
   .frequent {
     width: 85%;
-    height: 50rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
   }
 
   .fret {
     width: 50%;
-    height: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,7 +288,6 @@
   .questions {
     text-align: center;
     width: 100%;
-    height: 10rem;
   }
 
   .questions h3 {
@@ -294,7 +298,7 @@
   }
 
   .breakdown {
-    padding: 5.5%;
+    padding: 5.5rem;
   }
 
   details {
@@ -306,6 +310,11 @@
     font-weight: 700;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
+  }
+
+  .sum {
+    font-weight: 300;
+    font-size: 1.1rem;
   }
 
   .frequent-image {
@@ -540,7 +549,6 @@
 
     .search {
         width: 100%;
-        height: 305rem;
         display: flex;
         justify-content: center;
     }
@@ -709,7 +717,6 @@
 
   .frequent {
     width: 85%;
-    height: 80rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -718,7 +725,6 @@
 
   .fret {
     width: 100%;
-    height: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -727,7 +733,6 @@
   .questions {
     text-align: center;
     width: 100%;
-    height: 10rem;
   }
 
   .questions h3 {
@@ -991,7 +996,6 @@
 
     .search {
         width: 100%;
-        height: 500rem;
         display: flex;
         justify-content: center;
     }
@@ -1160,7 +1164,6 @@
 
   .frequent {
     width: 85%;
-    height: 50rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1168,7 +1171,6 @@
 
   .fret {
     width: 100rem;
-    height: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1177,7 +1179,6 @@
   .questions {
     text-align: center;
     width: 100%;
-    height: 10rem;
   }
 
   .questions h3 {
@@ -1211,7 +1212,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 25rem;
   }
 
   .footer {

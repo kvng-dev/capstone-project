@@ -170,7 +170,6 @@ span {
 
 .btn1 {
     margin-bottom: 1rem;
-    color: rgba(79, 120, 28, 1);
     border: 0.5px solid grey;
     border-radius: 0.5rem;
     padding: 1.3rem 1rem;
@@ -181,6 +180,11 @@ span {
     font-size: 1rem;
     margin-right: 1.1rem;
     margin-left: 3.5rem;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: rgba(79, 120, 28, 1);
 }
 
 .btn2 {
@@ -194,6 +198,11 @@ span {
     background-color: rgba(79, 120, 28, 1);
     transform: translateY(-1rem);      
     font-size: 1rem;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
 }
 
 /* TABLET VERSION */

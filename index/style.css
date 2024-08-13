@@ -70,7 +70,7 @@ label {
   font-weight: 400;
   padding-left: 2rem;
 }
-.new {
+.password {
   position: relative;
 }
 .new input {
@@ -93,17 +93,17 @@ label {
 }
 .lock {
   position: absolute;
-  left: 13rem;
-  top: 0.8rem;
+  left: 12.6rem;
+  top: 2rem;
   width: 4rem;
-  height: 3.2rem;
-  background: gray;
+  height: 3.7rem;
+  background: lightgray;
 }
 
 .eye {
   position: absolute;
   right: 13rem;
-  top: 1.4rem;
+  top: 2.8rem;
   width: 4rem;
   height: 3rem;
 }

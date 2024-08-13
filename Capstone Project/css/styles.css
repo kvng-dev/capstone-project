@@ -15,7 +15,7 @@ body {
   /* background-color: #9e9e9e; */
   height: 100vh;
   width: 100%;
-  background-image: url("assets/background.jpg");
+  background-image: url("/Capstone Project/images/Beatrice assets/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -221,7 +221,7 @@ body {
 
   body {
     font-size: 60%;
-    background-image: url(assets/background.jpg);
+    background-image: url("/Capstone Project/images/Beatrice assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Raleway", sans-serif;
@@ -407,7 +407,7 @@ body {
   }
 
   body {
-    background-image: url(assets/background.jpg);
+    background-image: url("/Capstone Project/images/Beatrice assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
@@ -450,14 +450,6 @@ body {
     height: 45vh;
     width: 70vw;
     margin: auto;
-  }
-
-  .welcome {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-    font-weight: 800;
-    line-height: 28px;
   }
 
   .buttons-div {

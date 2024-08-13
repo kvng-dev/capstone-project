@@ -17,7 +17,7 @@
 </head>
 <body>
     <header class="page-header">
-        <nav class="nav-links">
+        <nav class="nav-links" id="Mynav-links">
  <div class="logo">
    <img style="margin-left: 30px;" src="/Capstone Project/images/Malik assets/Property_1_Variant3-removebg-preview.png" width="50" height="50" alt="Healthsphere" />
  </div>
@@ -229,6 +229,16 @@ Dr. David Lee
         </div>
       </div>
     </div>
+    <script>
+      function myFunction() {
+      var x = document.getElementById("Mynav-links");
+      if (x.className === "page-header") {
+        x.className += " responsive";
+      } else {
+        x.className = "page-header";
+      }
+    }
+    </script>
   </footer>
 </body>
 </html>

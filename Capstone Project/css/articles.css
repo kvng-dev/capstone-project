@@ -108,15 +108,15 @@ a {
 
 .hero-content h3 {
   color: #ffcf91;
-  font-size: 3.6rem;
+  font-size: 3.8rem;
   font-weight: 800;
   line-height: 36px;
   width: 69%;
 }
 
 .hero-content p {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: 500;
   line-height: 22px;
   width: 85%;
 }
@@ -131,14 +131,14 @@ a {
 
 .all-articles {
   padding: 0 5%;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
 .contents-intro {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 22px;
   word-spacing: 1px;
@@ -147,11 +147,11 @@ a {
 
 .all-articles h3 {
   color: #4f781c;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .all-articles .bold {
-  font-size: 1.42rem;
+  font-size: 1.6rem;
   font-weight: 650;
 }
 
@@ -177,7 +177,7 @@ a {
   padding-bottom: 1rem;
   padding-left: 0.6rem;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .prof {

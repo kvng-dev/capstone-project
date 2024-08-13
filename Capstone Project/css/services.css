@@ -70,14 +70,22 @@
     font-weight: bold;
     font-size: 1.4rem;
     margin-right: 2rem;
-    color: white;
     padding: 1rem;
+  }
+
+  .user button a {
+    text-decoration: none;
+    color: white;
   }
 
   .user button:last-child {
     border: none;
     background-color: rgba(255, 207, 145, 1);
+  }
+
+  .user button:last-child a {
     color: rgba(79, 120, 28, 1);
+    text-decoration: none;
   }
   
   button:hover {
@@ -139,6 +147,11 @@
     border: none;
     border-radius: 5px;
     font-size: 1.5rem;
+    color: white;
+  }
+
+  .overlayee button a {
+    text-decoration: none;
     color: white;
   }
   

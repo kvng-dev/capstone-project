@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 66.5%;
 }
 
 ul {
@@ -472,7 +472,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 88.1vh;
+    height: 88.6vh;
     color: white;
     display: flex;
     justify-content: flex-start;
@@ -853,7 +853,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    height: 88.1vh;
+    height: 88.6vh;
     width: 100%;
     color: white;
     display: flex;

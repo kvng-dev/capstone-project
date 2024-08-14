@@ -29,7 +29,7 @@ ul {
   .nav-list {
     justify-content: space-between;
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 5rem;
     display: none;
   }
   

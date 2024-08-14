@@ -70,7 +70,7 @@ ul {
     width: 100%;
     height:595px;
     background: url(/Portrait\ of\ diverse\ women\ together.jpg);
-    background-size: 100% 100%;
+    background-size: 100% 120%;
     background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
@@ -276,8 +276,8 @@ color: #f6f6f6;
 
 .search2 button {
     position: absolute;
-    right: 0px;
-    margin-right: 60px;
+    left: 0px;
+    margin-left: 270px;
     top: calc(39% - 11px);
     text-align: center;
     font-size: 28px;
@@ -309,3 +309,17 @@ text-align: left;
 footer a:hover {
   opacity: 0.8;
 }
+.foote {
+  color: white;
+  background-color: #101806;
+  width: 100%;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  background-color: rgba(246, 246, 246, 1);
+}  

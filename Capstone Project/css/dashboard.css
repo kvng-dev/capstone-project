@@ -247,7 +247,7 @@ footer {
   flex-direction: column;
   color: white;
   background: #101806;
-  padding: 0;
+  padding: 0 3rem;
   border: 2px solid black;
 }
 

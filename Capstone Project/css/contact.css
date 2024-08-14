@@ -99,9 +99,12 @@
   }
 
   button:last-child:hover {
-    color: white;
     background-color: rgba(79, 120, 28, 1);
     border: 0.5px solid rgba(255, 207, 145, 1);
+  }
+
+  button:last-child:hover a {
+    color: white;
   }
   
   .user1 {
@@ -109,21 +112,19 @@
   }
   
   .hero-section {
-    background-image: url("../images/Kingsley assets/portrait-happy-young-woman_23-2149309261.jpg");
+    background-image: url("../images/Richard assets/Mask group.png");
     width: 100%;
     height: 56rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom-left-radius: 50% 10%;
-    border-bottom-right-radius: 50% 10%;
   }
   
   .hero-section .overlay {
-    background-color: rgba(35, 34, 34, 0.6);
-    height: 100%;
-    border-bottom-left-radius: 50% 10%;
-    border-bottom-right-radius: 50% 10%;
+    width: 100%;
+    height: 56rem;
+    background-color: rgba(0, 0, 0, 0.258);
+    background-color: transparent;
   }
   
   .overlayee {
@@ -461,24 +462,24 @@
   }
   
   .hero-section {
-    background-image: url("../images/Kingsley assets/portrait-happy-young-woman_23-2149309261.jpg");
-    height: 42rem;
+    background-image: url("../images/Richard assets/Mask group.png");
+    width: 100%;
+    height: 56rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
   }
   
   .hero-section .overlay {
-    background-color: rgba(35, 34, 34, 0.6);
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
+    width: 100%;
+    height: 56rem;
+    background-color: rgba(0, 0, 0, 0.258);
+    background-color: transparent;
   }
   
   .overlayee {
     width: 67rem;
-    padding: 15rem;
+    padding: 20rem;
   }
   
   .overlayee h1 {
@@ -801,19 +802,19 @@
   }
   
   .hero-section {
-    background-image: url("../images/Kingsley assets/portrait-happy-young-woman_23-2149309261.jpg");
-    height: 42rem;
+    background-image: url("../images/Richard assets/Mask group.png");
+    width: 100%;
+    height: 56rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
   }
   
   .hero-section .overlay {
-    background-color: rgba(35, 34, 34, 0.6);
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
+    width: 100%;
+    height: 56rem;
+    background-color: rgba(0, 0, 0, 0.258);
+    background-color: transparent;
   }
   
   .overlayee {

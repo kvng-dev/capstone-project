@@ -349,7 +349,7 @@ footer {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0) 100%
       ),
-      url(page-img/unsplash_4gcqRf3-f2I.png);
+      url("../images/Shalom assets/unsplash_4gcqRf3-f2I.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -664,7 +664,7 @@ footer {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0) 100%
       ),
-      url(page-img/unsplash_4gcqRf3-f2I.png);
+      url("../images/Shalom assets/unsplash_4gcqRf3-f2I.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

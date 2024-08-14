@@ -49,7 +49,10 @@ a {
   column-gap: 4.4rem;
 }
 
-.nav-list .active,
+.nav-list:nth-child(:first-child) {
+  color: #ffcf91;
+}
+
 .user-active {
   color: #ffffff;
   font-size: 1.8rem;
@@ -61,6 +64,22 @@ a {
   font-size: 1.5rem;
   font-weight: 400;
   color: #f6f6f6;
+}
+
+.nav-list li:nth-child(1) a {
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-right: 0rem;
+  color: #ffcf91;
+}
+
+.nav-list li a:hover {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.nav-list li:nth-child(1) a:hover {
+  color: #ffcf91;
 }
 
 .nav__toggle {
@@ -276,6 +295,11 @@ footer {
 .contact .f6 {
   color: #f6f6f6;
   font-weight: 200;
+}
+
+.explore .f6:hover,
+.contact .f6:hover {
+  font-weight: 500;
 }
 
 .sub-btn {

@@ -107,7 +107,7 @@ button:last-child:hover a {
 }
 
 .hero-section {
-  background-image: url("../images/Richard assets/Mask\ group\ \(2\).png");
+  background-image: url("./images/Richard assets/Mask\ group\ \(2\).png");
   height: 85.1rem;
   margin-bottom: 5rem;
   background-position: center;
@@ -381,7 +381,7 @@ details {
   margin: 0rem auto;
   padding-top: 5rem;
 }
-  
+
 .logo-name {
   display: flex;
   flex-direction: column;
@@ -389,56 +389,57 @@ details {
   width: 20vw;
   height: 10rem;
 }
-    
-  .explore,
-  .contact {
+
+.explore,
+.contact {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   width: 15vw;
   height: 20rem;
-  }
+}
 
-  .explore h3, .contact h3 {
+.explore h3,
+.contact h3 {
   font-size: 1.7rem;
-  }
+}
 
-  .explorer li {
+.explorer li {
   list-style-type: none;
   padding-bottom: 1rem;
   font-size: 1.4rem;
   font-weight: 200;
-  }
+}
 
-  .contact p {
+.contact p {
   font-size: 1.4rem;
   font-weight: 200;
-  }
+}
 
-  .connect {
+.connect {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   width: 25rem;
   height: 20rem;
   padding-left: 3rem;
-  }
+}
 
-  .connect h3 {
+.connect h3 {
   font-size: 1.5rem;
-  }
+}
 
-  .socials {
+.socials {
   display: flex;
   gap: 1rem;
-  }
+}
 
-  .socials img {
+.socials img {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   margin-bottom: 1rem;
-  }
+}
 
 .sub-btn {
   display: flex;
@@ -485,7 +486,7 @@ details {
   width: 100vw;
   height: 0.01rem;
   background-color: rgba(246, 246, 246, 1);
-} 
+}
 
 /* TABLET VERSION */
 
@@ -500,7 +501,7 @@ details {
   html {
     font-size: 60%;
   }
-  
+
   .page-header {
     background-color: rgba(79, 120, 28, 1);
     height: 10rem;
@@ -508,12 +509,12 @@ details {
     align-items: center;
     justify-content: space-around;
   }
-  
+
   .nav-links {
     display: flex;
     justify-content: center;
   }
-  
+
   .logo {
     width: 10vw;
     display: flex;
@@ -553,7 +554,7 @@ details {
     width: 40vw;
     transform: translateX(38vw);
   }
-  
+
   .user button {
     width: 20rem;
     border: 0.5px solid rgba(255, 207, 145, 1);
@@ -571,7 +572,7 @@ details {
     background-color: rgba(255, 207, 145, 1);
     color: rgba(79, 120, 28, 1);
   }
-  
+
   button:hover {
     background: #ffcf91;
     color: rgba(79, 120, 28, 1);
@@ -583,7 +584,7 @@ details {
     background-color: rgba(79, 120, 28, 1);
     border: 0.5px solid rgba(255, 207, 145, 1);
   }
-  
+
   .user1 {
     display: flex;
     justify-content: flex-end;
@@ -592,7 +593,7 @@ details {
     margin-right: 1rem;
     transform: translateX(-76vw);
   }
-  
+
   .hero-section {
     background-image: url("../images/Richard assets/Mask\ group\ \(2\).png");
     margin-bottom: 5rem;
@@ -600,30 +601,30 @@ details {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .hero-section .overlay {
     background-color: rgba(0, 0, 0, 0.258);
   }
-  
+
   .overlayee {
     width: 50rem;
     margin: 0rem 8.5rem;
     padding: 20rem 0rem;
   }
-  
+
   .overlayee h1 {
     color: rgba(255, 207, 145, 1);
     font-size: 4rem;
     line-height: 5rem;
   }
-  
+
   .overlayee p {
     color: white;
     line-height: 3rem;
     font-size: 1.7rem;
     margin-bottom: 50px;
   }
-  
+
   .overlayee button {
     width: 25rem;
     background: #4f781c;
@@ -632,7 +633,7 @@ details {
     border-radius: 5px;
     font-size: 1.5rem;
   }
-  
+
   .overlayee button:last-child {
     width: 18rem;
     margin-left: 2rem;
@@ -640,18 +641,18 @@ details {
     background-color: transparent;
     font-weight: 500;
   }
-  
+
   .overlayee button a {
     text-decoration: none;
     color: white;
   }
-  
+
   .overlayee button:hover {
     font-weight: 700;
     color: rgba(79, 120, 28, 1);
     background-color: rgba(255, 207, 145, 1);
   }
-  
+
   .key-feature {
     display: flex;
     flex-direction: column;
@@ -659,19 +660,19 @@ details {
     justify-content: center;
     align-items: center;
   }
-  
+
   .key-feature h1 {
     font-size: 4rem;
     color: #4f781c;
   }
-  
+
   .key-feature p {
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 30px;
     margin-bottom: 20px;
   }
-  
+
   .container {
     margin: auto;
     display: grid;
@@ -679,7 +680,7 @@ details {
     row-gap: 1rem;
     column-gap: 3rem;
   }
-  
+
   .key-container {
     width: 455px;
     padding: 1rem 3rem;
@@ -688,15 +689,15 @@ details {
     box-shadow: 5px 8px rgb(223, 221, 221);
     border-radius: 5px;
   }
-  
+
   .key-container img {
     margin: 30px 0;
   }
-  
+
   .key-container p {
     font-size: 16px;
   }
-  
+
   .landing-page {
     background: #4f781c;
     text-align: center;
@@ -704,18 +705,18 @@ details {
     padding: 50px 0;
     margin-top: 5rem;
   }
-  
+
   .landing-page h1 {
     font-size: 3.5rem;
   }
-  
+
   .landing-page p {
     font-size: 1.8rem;
     margin-bottom: 50px;
     line-height: 30px;
     font-weight: 300;
   }
-  
+
   .main-land {
     width: 100%;
     display: flex;
@@ -724,26 +725,26 @@ details {
     align-items: center;
     margin: auto;
   }
-  
+
   .land-div {
     width: 50rem;
     margin: auto;
   }
-  
+
   .land-div h1 {
     font-size: 2.5rem;
   }
-  
+
   .land-div p {
     font-size: 1.5rem;
     line-height: 30px;
   }
-  
+
   .land-div img {
     width: 300px;
     height: 300px;
   }
-  
+
   .frequent {
     width: 100%;
     display: flex;
@@ -752,7 +753,7 @@ details {
     align-items: center;
     margin: auto;
   }
-  
+
   .fret {
     margin-top: 3rem;
     width: 50%;
@@ -761,25 +762,25 @@ details {
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .questions {
     text-align: center;
     width: 100%;
     font-size: 1.3rem;
   }
-  
+
   .questions h3 {
     color: rgba(79, 120, 28, 1);
     font-size: 2.5rem;
     font-weight: 400;
     padding-bottom: 1rem;
   }
-  
+
   .breakdown {
     padding: 5.5rem;
     width: 100%;
   }
-  
+
   details {
     border: none;
     width: 100%;
@@ -790,12 +791,12 @@ details {
     margin-bottom: 1rem;
     border-radius: 0.5rem;
   }
-  
+
   .sum {
     font-weight: 300;
     font-size: 1.1rem;
   }
-  
+
   .frequent-image {
     display: flex;
     justify-content: center;
@@ -803,7 +804,7 @@ details {
     width: 100%;
     margin-bottom: 5rem;
   }
-  
+
   .control {
     width: 90%;
     display: flex;
@@ -814,36 +815,35 @@ details {
     background: hsl(87, 62%, 29%);
     color: white;
     text-align: center;
-
   }
-  
+
   .ctrl-img {
     width: 100rem;
     height: 40rem;
   }
-  
+
   .ctrl-img img {
     width: 100%;
     height: 100%;
   }
-  
+
   .ctr {
     width: 100%;
     margin: auto;
     padding: 5rem 0rem;
   }
-  
+
   .ctr h1 {
     font-size: 4rem;
     margin-bottom: 2rem;
   }
-  
+
   .ctr p {
     font-size: 1.5rem;
     line-height: 2.5rem;
     font-weight: 200;
   }
-  
+
   .ctr button {
     margin-top: 2rem;
     width: 18rem;
@@ -853,12 +853,12 @@ details {
     border-radius: 5px;
     font-size: 1.5rem;
   }
-  
+
   .ctr button a {
     text-decoration: none;
     color: rgba(79, 120, 28, 1);
   }
-  
+
   .footer {
     color: white;
     background-color: #101806;
@@ -875,66 +875,67 @@ details {
     justify-content: space-around;
     gap: 1rem;
   }
-    
+
   .logo-name {
     display: flex;
     align-items: center;
     width: 100%;
   }
-      
-    .explore,
-    .contact {
+
+  .explore,
+  .contact {
     display: flex;
     align-items: center;
     gap: 1rem;
     width: 16rem;
-    }
+  }
 
-    .explore h3, .contact h3 {
+  .explore h3,
+  .contact h3 {
     font-size: 1.7rem;
-    }
+  }
 
-    .explorer li {
+  .explorer li {
     list-style-type: none;
     padding-bottom: 1rem;
     font-size: 1.4rem;
     font-weight: 200;
-    }
+  }
 
-    .contact p {
+  .contact p {
     font-size: 1.4rem;
     font-weight: 200;
-    }
+  }
 
-    .connect {
+  .connect {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 25rem;
-    }
+  }
 
-    .connect h3 {
+  .connect h3 {
     font-size: 1.5rem;
-    }
+  }
 
-    .socials {
+  .socials {
     display: flex;
     gap: 1rem;
-    }
+  }
 
-    .socials img {
+  .socials img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     margin-bottom: 1rem;
-    }
+  }
 
   .sub-btn {
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
   }
-  
+
   #inputt {
     padding: 1rem;
     width: 21rem;
@@ -945,7 +946,7 @@ details {
     border: none;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
   }
-  
+
   .subscribe button {
     margin-right: 1rem;
     transform: translateY(-3rem);
@@ -974,13 +975,12 @@ details {
     width: 100vw;
     height: 0.01rem;
     background-color: rgba(246, 246, 246, 1);
-  }  
+  }
 }
 
 /* MOBILE VERSION */
 
 @media screen and (max-width: 600px) {
-  
   * {
     margin: 0;
     padding: 0;
@@ -991,7 +991,7 @@ details {
   html {
     font-size: 50%;
   }
-  
+
   .page-header {
     background-color: rgba(79, 120, 28, 1);
     height: 10rem;
@@ -999,12 +999,12 @@ details {
     align-items: center;
     justify-content: space-around;
   }
-  
+
   .nav-links {
     display: flex;
     justify-content: center;
   }
-  
+
   .logo {
     width: 10rem;
     display: flex;
@@ -1044,7 +1044,7 @@ details {
     width: 30vw;
     display: none;
   }
-  
+
   .user button {
     width: 10vw;
     border: 0.5px solid rgba(255, 207, 145, 1);
@@ -1062,7 +1062,7 @@ details {
     background-color: rgba(255, 207, 145, 1);
     color: rgba(79, 120, 28, 1);
   }
-  
+
   button:hover {
     background: #ffcf91;
     color: rgba(79, 120, 28, 1);
@@ -1074,7 +1074,7 @@ details {
     background-color: rgba(79, 120, 28, 1);
     border: 0.5px solid rgba(255, 207, 145, 1);
   }
-  
+
   .user1 {
     display: flex;
     justify-content: flex-end;
@@ -1083,7 +1083,7 @@ details {
     margin-right: 1rem;
     transform: translateX(-1rem);
   }
-  
+
   .hero-section {
     background-image: url("../images/Richard assets/Mask\ group\ \(2\).png");
     margin-bottom: 5rem;
@@ -1091,31 +1091,31 @@ details {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .hero-section .overlay {
     background-color: rgba(0, 0, 0, 0.258);
   }
-  
+
   .overlayee {
     width: 50rem;
     margin: 0rem 8.5rem;
     padding: 20rem 0rem;
     text-align: justify;
   }
-  
+
   .overlayee h1 {
     color: rgba(255, 207, 145, 1);
     font-size: 3.5rem;
     line-height: 5rem;
   }
-  
+
   .overlayee p {
     color: white;
     line-height: 3rem;
     font-size: 1.5rem;
     margin-bottom: 50px;
   }
-  
+
   .overlayee button {
     width: 25rem;
     background: #4f781c;
@@ -1124,7 +1124,7 @@ details {
     border-radius: 5px;
     font-size: 1.5rem;
   }
-  
+
   .overlayee button:last-child {
     width: 18rem;
     margin-left: 2rem;
@@ -1132,18 +1132,18 @@ details {
     background-color: transparent;
     font-weight: 500;
   }
-  
+
   .overlayee button a {
     text-decoration: none;
     color: white;
   }
-  
+
   .overlayee button:hover {
     font-weight: 700;
     color: rgba(79, 120, 28, 1);
     background-color: rgba(255, 207, 145, 1);
   }
-  
+
   .key-feature {
     display: flex;
     flex-direction: column;
@@ -1151,19 +1151,19 @@ details {
     justify-content: center;
     align-items: center;
   }
-  
+
   .key-feature h1 {
     font-size: 4rem;
     color: #4f781c;
   }
-  
+
   .key-feature p {
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 30px;
     margin-bottom: 20px;
   }
-  
+
   .container {
     margin: auto;
     display: grid;
@@ -1171,7 +1171,7 @@ details {
     row-gap: 1rem;
     column-gap: 3rem;
   }
-  
+
   .key-container {
     width: 455px;
     padding: 1rem 3rem;
@@ -1180,15 +1180,15 @@ details {
     box-shadow: 5px 8px rgb(223, 221, 221);
     border-radius: 5px;
   }
-  
+
   .key-container img {
     margin: 30px 0;
   }
-  
+
   .key-container p {
     font-size: 16px;
   }
-  
+
   .landing-page {
     background: #4f781c;
     text-align: center;
@@ -1196,18 +1196,18 @@ details {
     padding: 50px 0;
     margin-top: 5rem;
   }
-  
+
   .landing-page h1 {
     font-size: 3.5rem;
   }
-  
+
   .landing-page p {
     font-size: 1.8rem;
     margin-bottom: 50px;
     line-height: 30px;
     font-weight: 300;
   }
-  
+
   .main-land {
     width: 100%;
     display: flex;
@@ -1216,26 +1216,26 @@ details {
     align-items: center;
     margin: auto;
   }
-  
+
   .land-div {
     width: 50rem;
     margin: auto;
   }
-  
+
   .land-div h1 {
     font-size: 2.5rem;
   }
-  
+
   .land-div p {
     font-size: 1.5rem;
     line-height: 30px;
   }
-  
+
   .land-div img {
     width: 300px;
     height: 300px;
   }
-  
+
   .frequent {
     width: 100%;
     display: flex;
@@ -1244,7 +1244,7 @@ details {
     align-items: center;
     margin: auto;
   }
-  
+
   .fret {
     margin-top: 3rem;
     width: 50%;
@@ -1253,25 +1253,25 @@ details {
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .questions {
     text-align: center;
     width: 100%;
     font-size: 1.3rem;
   }
-  
+
   .questions h3 {
     color: rgba(79, 120, 28, 1);
     font-size: 2.5rem;
     font-weight: 400;
     padding-bottom: 1rem;
   }
-  
+
   .breakdown {
     padding: 5.5rem;
     width: 100%;
   }
-  
+
   details {
     border: none;
     width: 100%;
@@ -1282,12 +1282,12 @@ details {
     margin-bottom: 1rem;
     border-radius: 0.5rem;
   }
-  
+
   .sum {
     font-weight: 300;
     font-size: 1.1rem;
   }
-  
+
   .frequent-image {
     display: flex;
     justify-content: center;
@@ -1295,7 +1295,7 @@ details {
     width: 100%;
     margin-bottom: 5rem;
   }
-  
+
   .control {
     width: 90%;
     display: flex;
@@ -1306,36 +1306,35 @@ details {
     background: hsl(87, 62%, 29%);
     color: white;
     text-align: center;
-
   }
-  
+
   .ctrl-img {
     width: 100rem;
     height: 40rem;
   }
-  
+
   .ctrl-img img {
     width: 100%;
     height: 100%;
   }
-  
+
   .ctr {
     width: 100%;
     margin: auto;
     padding: 5rem 0rem;
   }
-  
+
   .ctr h1 {
     font-size: 4rem;
     margin-bottom: 2rem;
   }
-  
+
   .ctr p {
     font-size: 1.5rem;
     line-height: 2.5rem;
     font-weight: 200;
   }
-  
+
   .ctr button {
     margin-top: 2rem;
     width: 18rem;
@@ -1345,12 +1344,12 @@ details {
     border-radius: 5px;
     font-size: 1.5rem;
   }
-  
+
   .ctr button a {
     text-decoration: none;
     color: rgba(79, 120, 28, 1);
   }
-  
+
   .footer {
     color: white;
     background-color: #101806;
@@ -1365,72 +1364,73 @@ details {
     justify-content: center;
     gap: 1rem;
   }
-    
+
   .logo-name {
     display: flex;
     align-items: center;
     width: 80rem;
     margin-bottom: 5rem;
   }
-      
-    .explore,
-    .contact {
+
+  .explore,
+  .contact {
     display: flex;
     width: 80rem;
     align-items: center;
-    }
+  }
 
-    .explore h3, .contact h3 {
+  .explore h3,
+  .contact h3 {
     font-size: 2rem;
-    }
+  }
 
-    .contact {
-      height: 12rem;
-    }
+  .contact {
+    height: 12rem;
+  }
 
-    .explorer li {
+  .explorer li {
     list-style-type: none;
     padding-bottom: 1rem;
     font-size: 1.4rem;
     font-weight: 200;
-    }
+  }
 
-    .contact p {
+  .contact p {
     font-size: 1.4rem;
     font-weight: 200;
-    }
+  }
 
-    .connect {
+  .connect {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     width: 80rem;
     padding-left: 2rem;
-    }
+  }
 
-    .connect h3 {
+  .connect h3 {
     font-size: 1.5rem;
-    }
+  }
 
-    .socials {
+  .socials {
     display: flex;
     gap: 1rem;
-    }
+  }
 
-    .socials img {
+  .socials img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     margin-bottom: 1rem;
-    }
+  }
 
   .sub-btn {
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
   }
-  
+
   #inputt {
     padding: 1rem;
     width: 23rem;
@@ -1441,7 +1441,7 @@ details {
     border: none;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
   }
-  
+
   .subscribe button {
     margin-left: -1rem;
     transform: translateY(0.9rem);
@@ -1469,5 +1469,5 @@ details {
     width: 100%;
     height: 0.01rem;
     background-color: rgba(246, 246, 246, 1);
-  }  
+  }
 }
